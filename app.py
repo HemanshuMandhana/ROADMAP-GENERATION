@@ -10,8 +10,7 @@ app = Flask(__name__)
 counter = 0  # This variable tracks whether the user has visited the login form
 
 # Configure Google Generative AI
-#GOOGLE_API_KEY = "AIzaSyAKwX9PCmG-gnafPdY3DwaqmSfQz_Hk1-A"
-GOOGLE_API_KEY = "AIzaSyC-llaZvSEEjEqxg_fBNzLSupTrfVz3jGk"
+GOOGLE_API_KEY = "ADD_YOUR_API_KEY_HERE"  # Replace with your actual API key
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Load the course data

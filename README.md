@@ -68,6 +68,7 @@ ROADMAP-GENERATION/
     ├── index.html
     ├── recommend.html
     └── roadmap.html
+```
 
 ---
 
@@ -79,7 +80,6 @@ ROADMAP-GENERATION/
 git clone https://github.com/HemanshuMandhana/ROADMAP-GENERATION.git
 cd ROADMAP-GENERATION
 ```
-
 ### 2️⃣ Create a Virtual Environment & Install Dependencies
 
 ```bash
