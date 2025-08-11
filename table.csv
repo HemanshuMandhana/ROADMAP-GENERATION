@@ -1,0 +1,30 @@
+Course Title,Platform,Description,Category,Instructor,Level,Rating,# of Ratings,Duration,Price,Tags/Skills Covered 1,Tags/Skills Covered 2,Tags/Skills Covered 3
+Backend Development with Spring Boot,Udemy,Learn backend development with Java Spring Boot.,Full Stack Development,Olivia Taylor,Intermediate,4.7,1700,18 hours,$79,Spring Boot, Java, REST APIs
+Full Stack Web Apps with Flask,Udemy,Build web applications using Flask and Python.,Full Stack Development,Andrew Clark,Intermediate,4.6,1400,14 hours,$69,Flask, Python, Web Apps
+GraphQL with React,Coursera,Learn how to use GraphQL with React.,Full Stack Development,Karen Green,Intermediate,4.7,1000,8 hours,$59,GraphQL, React, JavaScript
+Machine Learning A-Z,Udemy,Complete course on machine learning algorithms and tools.,AI/ML/Data Science,Alex Johnson,Beginner,4.8,5000,40 hours,$95,Machine Learning, Python, Scikit-Learn
+Deep Learning with TensorFlow,Coursera,Master the basics of deep learning with TensorFlow.,AI/ML/Data Science,Susan Brown,Intermediate,4.7,2400,18 hours,$79,TensorFlow, Neural Networks, Python
+Data Science and Visualization,Udemy,Learn data science and visualization techniques.,AI/ML/Data Science,Tom Williams,Beginner,4.6,1600,12 hours,$65,Pandas, Matplotlib, Python
+NLP with Python,Udemy,Build natural language processing models in Python.,AI/ML/Data Science,Patricia Miller,Intermediate,4.7,1200,15 hours,$79,NLP, Python, Text Analysis
+Reinforcement Learning,Coursera,Understand and implement reinforcement learning algorithms.,AI/ML/Data Science,William White,Advanced,4.8,900,20 hours,$99,Reinforcement Learning, Python, AI
+Computer Vision with OpenCV,Udemy,Create image recognition models with OpenCV.,AI/ML/Data Science,Jessica Evans,Intermediate,4.7,1400,16 hours,$85,Computer Vision, OpenCV, Python
+Data Analytics with R,Udemy,Analyze data using R programming and visualization.,AI/ML/Data Science,Steven Harris,Beginner,4.6,1300,10 hours,$59,R, Data Analysis, Visualization
+AI for Everyone,Coursera,Non-technical introduction to AI and its applications.,AI/ML/Data Science,Andrew Ng,Beginner,4.8,7000,6 hours,Free,AI Basics, Applications, Industry Use Cases
+Introduction to Cybersecurity,Coursera,Learn the fundamentals of cybersecurity concepts.,Cybersecurity,John Smith,Beginner,4.6,2500,8 hours,Free,Cybersecurity, Network Security,Security
+Ethical Hacking for Beginners,Udemy,Learn ethical hacking techniques and penetration testing.,Cybersecurity,Jane Doe,Beginner,4.5,1800,15 hours,$79,Ethical Hacking, Penetration Testing, Kali Linux
+Network Security Essentials,Udemy,Understand core concepts of network security.,Cybersecurity,Alice Johnson,Intermediate,4.7,1200,10 hours,$69,Network Security, Firewalls, Encryption
+Cybersecurity for Business,Coursera,Cybersecurity practices for small businesses and managers.,Cybersecurity,Bob Lee,Beginner,4.6,800,6 hours,$39,Cybersecurity, Business Security, Risk Management
+Practical Malware Analysis,Udemy,Learn how to detect and analyze malware threats.,Cybersecurity,Richard Roe,Advanced,4.8,900,18 hours,$95,Malware, Threat Analysis, Security
+CompTIA Security+ Certification,Coursera,Prepare for the CompTIA Security+ certification exam.,Cybersecurity,Michael King,Intermediate,4.7,1400,25 hours,$99,CompTIA Security+, Certification, IT Security
+Web Application Security,Udemy,Protect web applications from common security threats.,Cybersecurity,Sarah Brown,Intermediate,4.6,1000,12 hours,$79,Web Security, OWASP, Security Testing
+Cryptography Fundamentals,Coursera,Learn the basics of cryptography and encryption techniques.,Cybersecurity,Linda White,Beginner,4.7,1100,7 hours,$49,Cryptography, Encryption, Data Security
+Incident Response and Recovery,Udemy,Learn how to manage and recover from cybersecurity incidents.,Cybersecurity,Frank Moore,Advanced,4.8,800,14 hours,$85,Incident Response, Cybersecurity, Recovery
+AWS Cloud Practitioner Essentials,Coursera,Learn the basics of cloud computing with AWS.,Cloud Computing,Sophie Lee,Beginner,4.7,2700,10 hours,Free,AWS, Cloud Basics, Services Overview
+Azure Fundamentals,Udemy,Introduction to Microsoft Azure cloud services.,Cloud Computing,Daniel Miller,Beginner,4.6,1600,12 hours,$59,Azure, Cloud Computing, Services
+Google Cloud Platform Fundamentals,Coursera,Learn the basics of Google Cloud Platform.,Cloud Computing,Emma Watson,Beginner,4.7,1800,8 hours,$49,GCP, Cloud Services, Infrastructure
+Cloud Security with AWS,Udemy,Understand security practices in AWS cloud.,Cloud Computing,David Smith,Intermediate,4.7,1500,14 hours,$75,AWS, Cloud Security, Compliance
+Kubernetes on Google Cloud,Udemy,Deploy and manage Kubernetes clusters on GCP.,Cloud Computing,Nancy Drew,Advanced,4.8,1200,18 hours,$89,Kubernetes, GCP, Cloud Management
+Azure DevOps Solutions,Coursera,Implement DevOps practices using Azure cloud.,Cloud Computing,Charles Black,Intermediate,4.7,1300,15 hours,$79,Azure DevOps, CI/CD, Cloud
+Serverless Applications on AWS,Udemy,Learn how to build serverless applications using AWS.,Cloud Computing,Olivia Taylor,Intermediate,4.6,900,12 hours,$69,Serverless, AWS Lambda, Cloud
+Managing Cloud Infrastructure with Terraform,Coursera,Manage cloud infrastructure using Terraform.,Cloud Computing,Andrew Clark,Intermediate,4.7,1100,10 hours,$59,Terraform, IaC, Cloud
+Building SaaS on AWS,Udemy,Create scalable SaaS applications on AWS cloud.,Cloud Computing,Steven Harris,Advanced,4.8,700,16 hours,$95,AWS, SaaS, Cloud

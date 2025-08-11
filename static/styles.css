@@ -1,0 +1,419 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles */
+.feature-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.testimonial-slide {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.5s ease-out;
+}
+
+.animate-slideIn {
+    animation: slideIn 0.5s ease-out;
+}
+
+
+
+/* Animation delay utilities */
+.animation-delay-200 {
+    animation-delay: 200ms;
+}
+
+.animation-delay-400 {
+    animation-delay: 400ms;
+}
+
+/* Roadmap timeline styles */
+.roadmap-step {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.roadmap-step::before {
+    content: '';
+    position:  absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #3182ce;
+}
+
+.roadmap-step::after {
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #3182ce;
+}
+
+
+/* Existing styles */
+
+/* Roadmap styles */
+.roadmap-step {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.roadmap-step.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.roadmap-step::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #3b82f6;
+}
+
+.roadmap-step:last-child::before {
+    height: 50%;
+}
+
+.roadmap-step-number {
+    position: absolute;
+    left: -1rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.roadmap-step-content {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Course card styles */
+.course-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.course-card.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.course-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #3b82f6;
+}
+
+.course-card p {
+    font-size: 0.875rem;
+    color: #4b5563;
+    margin-bottom: 0.25rem;
+}
+
+.course-card button {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+}
+
+/* Responsive styles */
+@media (max-width: 640px) {
+    .roadmap-step {
+        padding-left: 1.5rem;
+    }
+
+    .roadmap-step-number {
+        left: -0.75rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: 0.875rem;
+    }
+
+    .roadmap-step-content {
+        padding: 0.75rem;
+    }
+
+    .course-card {
+        padding: 1rem;
+    }
+
+    .course-card h3 {
+        font-size: 1.125rem;
+    }
+
+    .course-card p {
+        font-size: 0.8125rem;
+    }
+
+    .course-card button {
+        font-size: 0.8125rem;
+    }
+}
+
+/* Animation classes */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.fade-in.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Timeline styles */
+.left-timeline {
+    padding-left: 50%;
+}
+
+.right-timeline {
+    padding-right: 50%;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Card hover effects */
+.course-card {
+    transition: all 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Button hover effects */
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+/* Progress card animations */
+.progress-card {
+    transition: all 0.3s ease;
+}
+
+.progress-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Timeline animations */
+.timeline-step {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+}
+
+.timeline-step.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Navigation link effects */
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #2563eb;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Search input styles */
+input[type="text"] {
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+/* Progress indicators */
+.progress-ring {
+    transition: stroke-dashoffset 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .left-timeline,
+    .right-timeline {
+        padding: 0;
+        margin-left: 2rem;
+    }
+}
+
+.fading-blue-shadow {
+    box-shadow: 0 4px 10px rgba(37, 99, 235, 0.4), 0 10px 25px rgba(37, 99, 235, 0.2), 0 20px 50px rgba(37, 99, 235, 0.1);
+}
+
+/* Base styling for the timeline container */
+.timeline-container {
+    position: relative;
+    padding: 20px 0;
+}
+
+/* Vertical line in the center */
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: #d1d5db; /* Gray color */
+    z-index: 0;
+}
+
+/* Timeline items */
+.timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Position left items on the left side */
+.timeline-item.left {
+    text-align: right;
+    padding-right: 30px;
+}
+
+/* Position right items on the right side */
+.timeline-item.right {
+    left: 50%;
+    padding-left: 30px;
+    text-align: left;
+}
+
+/* Timeline content box */
+.timeline-content {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #fff;
+    border: 2px solid #3b82f6; /* Blue border */
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Connector circles on the timeline */
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 12px;
+    height: 12px;
+    background-color: #3b82f6; /* Blue color */
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Position connector circles */
+.timeline-item.left::before {
+    right: -6px; /* Positioned to the left side of the center line */
+}
+
+.timeline-item.right::before {
+    left: -6px; /* Positioned to the right side of the center line */
+}
