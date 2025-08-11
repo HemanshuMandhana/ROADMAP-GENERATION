@@ -50,6 +50,7 @@ This was developed as a **college project**.
 
 ## 📂 Project Structure
 
+```plaintext
 ROADMAP-GENERATION/
 │
 ├── app.py                 # Main Flask app
@@ -57,30 +58,27 @@ ROADMAP-GENERATION/
 ├── README.md
 │
 ├── static/                # Static assets
-│   ├── login\_form\_css.css
-│   ├── login\_form\_js.js
+│   ├── login_form_css.css
+│   ├── login_form_js.js
 │   ├── script.js
 │   └── styles.css
 │
 └── templates/             # HTML templates
-├── form\_for\_login.html
-├── index.html
-├── recommend.html
-└── roadmap.html
-
-````
-
+    ├── form_for_login.html
+    ├── index.html
+    ├── recommend.html
+    └── roadmap.html
 
 ---
 
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/HemanshuMandhana/ROADMAP-GENERATION.git
 cd ROADMAP-GENERATION
-
-````
+```
 
 ### 2️⃣ Create a Virtual Environment & Install Dependencies
 
@@ -112,7 +110,7 @@ Get your API key from [Google AI Studio](https://aistudio.google.com/).
 
 Ensure `table.csv` has:
 
-```
+```plaintext
 Category, Level, Keywords, Price, Rating, Duration, Course Title, Instructor, Platform, Description
 ```
 
@@ -128,9 +126,7 @@ Open browser: **[http://127.0.0.1:5000/](http://127.0.0.1:5000/)**
 
 ## 📌 Recommendation Formula
 
-The similarity score is calculated as:
-
-```
+```plaintext
 0.4  * Keyword Similarity +
 0.35 * Level Match +
 0.10 * Price Similarity +
@@ -141,5 +137,7 @@ The similarity score is calculated as:
 
 ## 📜 License
 
-**No License** – This is a **college project** and is not intended for commercial use.
-
+```plaintext
+This project is for educational purposes.
+You can freely modify and improve it.
+```
