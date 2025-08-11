@@ -1,6 +1,3 @@
-Here’s the **final clean README.md file content** — you can copy it directly into your `README.md` and commit to GitHub.
-
-```markdown
 # 🚀 Roadmap Generation Web App
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
@@ -8,7 +5,8 @@ Here’s the **final clean README.md file content** — you can copy it directly
 [![Google Gemini AI](https://img.shields.io/badge/Google%20Gemini%20AI-API-orange)](https://aistudio.google.com/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-2.x-blue)](https://tailwindcss.com/)
 
-A full-stack **Flask** web application that recommends courses and generates a **personalized AI-powered learning roadmap** based on user preferences.
+A full-stack **Flask** web application that recommends courses and generates a **personalized AI-powered learning roadmap** based on user preferences.  
+This was developed as a **college project**.
 
 ---
 
@@ -51,8 +49,6 @@ A full-stack **Flask** web application that recommends courses and generates a *
 ---
 
 ## 📂 Project Structure
-
-```
 
 ROADMAP-GENERATION/
 │
